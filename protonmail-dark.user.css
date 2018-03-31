@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name         Protonmail Dark
+@description  A dark theme for Protonmail.com
+@namespace    github.com/maxigaz/protonmail-dark
+@author       maxigaz
+@homepageURL  https://github.com/maxigaz/protonmail-dark
+@updateURL    https://raw.githubusercontent.com/maxigaz/protonmail-dark/master/protonmail-dark.user.css
+@version      0.1.0
+==/UserStyle== */
+
+@-moz-document domain("mail.protonmail.com") {
+	/* ===== General ====== */
+
+	h2 {
+		color: #f9f9fa;
+	}
+
+	#pm_main {
+		background-color: #41414f;
+		color: #bbbbc1;
+	}
+
+	/* ===== Settings ====== */
+
+	.pm_form input[type="email"], .pm_form input[type="number"], .pm_form input[type="password"], .pm_form input[type="search"], .pm_form input[type="tel"], .pm_form input[type="text"], .pm_form input[type="url"], .pm_form select, .pm_form textarea {
+		background-color: #6f6e7d;
+		color: #e1e1e1;
+	}
+
+	.pm_form input[type="email"]:hover, .pm_form input[type="number"]:hover, .pm_form input[type="password"]:hover, .pm_form input[type="search"]:hover, .pm_form input[type="tel"]:hover, .pm_form input[type="text"]:hover, .pm_form input[type="url"]:hover, .pm_form select:hover, .pm_form textarea:hover {
+		color: #e9e9e9;
+	}
+
+}
