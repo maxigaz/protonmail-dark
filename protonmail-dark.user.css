@@ -81,6 +81,12 @@
 		color: #dfdfdf;
 	}
 
+	.pm_buttons a:focus, .pm_buttons .pm_buttons-child:focus {
+		background-color: #646464;
+		box-shadow: none;
+		color: #dfdfdf;
+	}
+
 	.appConfigBody-rows .chooseLayoutBtns-btn-rows, body:not(.appConfigBody-rows) .chooseLayoutBtns-btn-column {
 		background-color: #646464;
 		box-shadow: inset 0 0 20px 10px rgba(0,0,0,.45);
