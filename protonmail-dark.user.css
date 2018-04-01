@@ -20,6 +20,63 @@
 		color: #bbbbc1;
 	}
 
+	/* ===== Conversation view ===== */
+
+	#conversation-view .frame {
+		background-color: #3b3b48;
+	}
+
+	.messageExtra-container > [class*="-container"] {
+		background-color: #4f5154;
+		border-color: #1b1b1b;
+		color: #dcdcdc;
+	}
+
+	#conversation-view .message {
+		border-color: #1b1b1b;
+	}
+
+	#conversation-view .message .details {
+		background-color: #47494c;
+		border-color: #1b1b1b;
+		color: #dcdcdc;
+	}
+
+	#conversation-view .message .summary {
+		background-color: #47494c;
+		color: #dcdcdc;
+	}
+
+	#conversation-view .message .summary .time::after {
+		background-image: none;
+	}
+
+	#conversation-view .message .summary .labels, #conversation-view .message .summary .status, #conversation-view .message .summary .time {
+		background-color: #47494c;
+		color: #dcdcdc;
+	}
+
+	.pm_buttons {
+		border-color: #1b1b1b;
+	}
+
+	.pm_buttons a, .pm_buttons .pm_buttons-child {
+		background-color: #4c4c4c;
+		border-color: #1b1b1b;
+		color: #dfdfdf;
+	}
+
+	.pm_buttons a:hover, .pm_buttons .pm_buttons-child:hover {
+		background-color: #646464;
+		color: #dfdfdf;
+	}
+
+	.pm_buttons a:active, .pm_buttons a.active, .pm_buttons .pm_buttons-child:active {
+		background-color: #757575;
+		box-shadow: inset 0 0 20px 10px rgba(0,0,0,.4);
+		color: #dfdfdf;
+	}
+
 	/* ===== Settings ====== */
 
 	.pm_form input[type="email"], .pm_form input[type="number"], .pm_form input[type="password"], .pm_form input[type="search"], .pm_form input[type="tel"], .pm_form input[type="text"], .pm_form input[type="url"], .pm_form select, .pm_form textarea {
