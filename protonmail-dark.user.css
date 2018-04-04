@@ -65,13 +65,13 @@
 	}
 
 	.pm_buttons a, .pm_buttons .pm_buttons-child {
-		background-color: #4c4c4c;
+		background-color: #46444c;
 		border-color: #1b1b1b;
 		color: #dfdfdf;
 	}
 
 	.pm_buttons a:hover, .pm_buttons .pm_buttons-child:hover {
-		background-color: #646464;
+		background-color: #5f5d6b;
 		color: #dfdfdf;
 	}
 
@@ -82,23 +82,23 @@
 	}
 
 	.pm_buttons a:focus, .pm_buttons .pm_buttons-child:focus {
-		background-color: #646464;
+		background-color: #5f5d6b;
 		box-shadow: none;
 		color: #dfdfdf;
 	}
 
 	.appConfigBody-rows .chooseLayoutBtns-btn-rows, body:not(.appConfigBody-rows) .chooseLayoutBtns-btn-column {
-		background-color: #646464;
+		background-color: #5f5d6b;
 		box-shadow: inset 0 0 20px 10px rgba(0,0,0,.45);
 	}
 
 	#conversation-view .message .details .pm_buttons a {
-		background-color: #4c4c4c;
+		background-color: #46444c;
 		border-color: #1b1b1b;
 	}
 
 	#conversation-view .message .details .pm_buttons a:hover {
-		background-color: #646464;
+		background-color: #5f5d6b;
 	}
 
 	#conversation-view .message .details .pm_buttons a:active {
