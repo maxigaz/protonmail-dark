@@ -178,6 +178,14 @@
 		background-image: none;
 	}
 
+	.alert {
+		background-color: #3b3b48;
+		color: #dcdcdc;
+	}
+
+	.alert a {
+		color: #9397cd;
+	}
 
 	/* ===== Settings ====== */
 
