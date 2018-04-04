@@ -10,6 +10,6 @@ If you have Stylus installed, click on the banner below and a new window of Styl
 
 ## Install manually or with other style managers
 
-ProtonMail supports custom themes as well. To make use of this feature, copy and paste the raw CSS code into Settings → Appearance → Custom theme.
+ProtonMail supports custom themes as well. To make use of this feature, copy and paste the [raw CSS code](/../../raw/master/protonmail-dark.user.css) into Settings → Appearance → Custom theme.
 
 In the case of other style managers, you may need to copy and paste manually in the settings of such addons, too.
