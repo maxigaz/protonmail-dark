@@ -37,13 +37,13 @@
 	}
 
 	#conversation-view .message .details {
-		background-color: #44414c;
+		background-color: #44414e;
 		border-color: #1b1b1b;
 		color: #dcdcdc;
 	}
 
 	#conversation-view .message .summary {
-		background-color: #44414c;
+		background-color: #44414e;
 		color: #dcdcdc;
 	}
 
@@ -52,7 +52,7 @@
 	}
 
 	#conversation-view .message .summary .labels, #conversation-view .message .summary .status, #conversation-view .message .summary .time {
-		background-color: #44414c;
+		background-color: #44414e;
 		color: #dcdcdc;
 	}
 
