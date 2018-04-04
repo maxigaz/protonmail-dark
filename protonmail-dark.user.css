@@ -32,6 +32,10 @@
 		color: #dcdcdc;
 	}
 
+	#conversation-view header h1 {
+		color: #e9e9e9;
+	}
+
 	#conversation-view .message {
 		border-color: #1b1b1b;
 	}
