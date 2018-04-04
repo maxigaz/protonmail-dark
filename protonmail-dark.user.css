@@ -158,6 +158,22 @@
 		color: white !important;
 	}
 
+	/* "Move to" dropdown menu */
+
+	.scrollbox-container {
+		background-color: #3b3b48;
+		background-image: radial-gradient(farthest-side at 50% 0,#33333f,transparent),radial-gradient(farthest-side at 50% 100%,#33333f,transparent);
+		border-color: #33333f;
+	}
+
+	.scrollbox-container::after {
+		background-image: none;
+	}
+
+	.scrollbox-container::before {
+		background-image: none;
+	}
+
 
 	/* ===== Settings ====== */
 
