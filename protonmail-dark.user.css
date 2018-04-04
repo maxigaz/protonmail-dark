@@ -144,6 +144,21 @@
 		box-shadow: inset 0 -1px 0 #292a2e;
 	}
 
+	.pm_dropdown {
+		background-color: #3b3b48;
+		border-color: #1b1b1b;
+		color: #c7c7c7;
+	}
+
+	.pm_dropdown > a, .pm_dropdown > button, .pm_dropdown > ul > li {
+		border-color: #292a2e;
+	}
+
+	.pm_dropdown > a:hover, .pm_dropdown > button:hover, .pm_dropdown > ul > li:hover {
+		color: white !important;
+	}
+
+
 	/* ===== Settings ====== */
 
 	.pm_form input[type="email"], .pm_form input[type="number"], .pm_form input[type="password"], .pm_form input[type="search"], .pm_form input[type="tel"], .pm_form input[type="text"], .pm_form input[type="url"], .pm_form select, .pm_form textarea {
