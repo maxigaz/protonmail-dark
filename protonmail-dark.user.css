@@ -20,6 +20,10 @@
 		color: #bbbbc1;
 	}
 
+	.headerSecured-container {
+		background-color: #606071;
+	}
+
 	/* ===== Conversation view ===== */
 
 	#conversation-view .frame {
