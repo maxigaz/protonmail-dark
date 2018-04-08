@@ -133,6 +133,24 @@
 		color: #dfdfdf;
 	}
 
+	#attachmentArea {
+		background-color: #3b3b48;
+		border-color: #1b1b1b;
+	}
+
+	.listAttachments-list .listAttachments-att {
+		background-color: #3e3e48;
+		color: #b4b4b4;
+	}
+
+	.listAttachments-list .listAttachments-att::after {
+		border-color: #282828;
+	}
+
+	.pm_button {
+		border-color: #282828;
+	}
+
 	/* Conversation view in mobile view */
 
 	body.appConfigBody-is-mobile #conversation-view .message .summary .time {
