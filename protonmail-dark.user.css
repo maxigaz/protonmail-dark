@@ -187,6 +187,21 @@
 		color: #9397cd;
 	}
 
+	/* Inbox in mobile view */
+
+	.conversation {
+		background-color: #363642;
+		border-color: #292a2e;
+	}
+
+	.conversation.read {
+		background-color: #3e3e4b;
+	}
+
+	.conversation .subject h4 {
+		color: #dddddd;
+	}
+
 	/* ===== Settings ====== */
 
 	.pm_form input[type="email"], .pm_form input[type="number"], .pm_form input[type="password"], .pm_form input[type="search"], .pm_form input[type="tel"], .pm_form input[type="text"], .pm_form input[type="url"], .pm_form select, .pm_form textarea {
