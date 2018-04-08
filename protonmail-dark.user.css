@@ -129,6 +129,12 @@
 		color: #dfdfdf;
 	}
 
+	/* Conversation view in mobile view */
+
+	body.appConfigBody-is-mobile #conversation-view .message .summary .time {
+		background-color: #44414e;
+	}
+
 	/* ===== Inbox view ====== */
 
 	body #conversation-list-rows .conversation {
