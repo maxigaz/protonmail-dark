@@ -39,7 +39,7 @@
 	}
 
 	.searchForm-advanced-wrapper .pm_select, .searchForm-advanced-wrapper input[type] {
-		background-color: #46444c;
+		background-color: #46444c !important;
 		border-color: #1b1b1b;
 	}
 
