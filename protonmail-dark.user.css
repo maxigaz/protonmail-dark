@@ -95,6 +95,12 @@
 		color: #dfdfdf;
 	}
 
+	.messageExtra-container > [class*="-container"] > [class*="-button"] {
+		background-color: #46444c;
+		border-color: #1b1b1b;
+		color: #dfdfdf;
+	}
+
 	.appConfigBody-rows .chooseLayoutBtns-btn-rows, body:not(.appConfigBody-rows) .chooseLayoutBtns-btn-column {
 		background-color: #5f5d6b;
 		box-shadow: inset 0 0 20px 10px rgba(0,0,0,.45);
@@ -188,6 +194,10 @@
 
 	.pm_dropdown > a:hover, .pm_dropdown > button:hover, .pm_dropdown > ul > li:hover {
 		color: white !important;
+	}
+
+	.paginator-disabled-previous {
+		background-color: #5F5D6B !important;
 	}
 
 	/* "Move to" dropdown menu */
