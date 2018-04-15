@@ -13,3 +13,11 @@ If you have Stylus installed, click on the banner below and a new window of Styl
 ProtonMail supports custom themes as well. To make use of this feature, copy and paste the [raw CSS code](/../../raw/master/protonmail-dark.user.css) into Settings → Appearance → Custom theme.
 
 In the case of other style managers, you may need to copy and paste manually in the settings of such addons, too.
+
+## Screenshots
+
+![A screenshot showing the inbox view](screenshot1.png)
+
+![A screenshot showing the filtered inbox view](screenshot2.png)
+
+![A screenshot showing the contents of an email](screenshot3.png)
