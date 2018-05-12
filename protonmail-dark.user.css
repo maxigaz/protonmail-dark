@@ -82,9 +82,22 @@
 		background-image: none;
 	}
 
+	#conversation-view .message.unread:not(.open) .summary {
+		background-color: #363642;
+	}
+
+	#conversation-view .message.unread:not(.open) .summary .time::after {
+		background: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),to(#363642));
+		background: linear-gradient(90deg,hsla(0,0%,100%,0) 0,#363642);
+	}
+
 	#conversation-view .message .summary .labels, #conversation-view .message .summary .status, #conversation-view .message .summary .time {
 		background-color: #44414e;
 		color: #dcdcdc;
+	}
+
+	#conversation-view .message.unread:not(.open) .summary .labels, #conversation-view .message.unread:not(.open) .summary .status, #conversation-view .message.unread:not(.open) .summary .time{
+		background-color: #363642 !important;
 	}
 
 	.pm_buttons {
