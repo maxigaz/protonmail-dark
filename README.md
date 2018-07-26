@@ -1,3 +1,7 @@
+**Note: This repository has been moved. For future updates, please, visit its new location [here](https://gitlab.com/maxigaz/protonmail-dark).**
+
+------------------
+
 # ProtonMail Dark
 
 This style has been written in the [usercss](https://github.com/openstyles/stylus/wiki/Usercss) format, specifically for [Stylus](https://add0n.com/stylus.html), although it might be compatible with other style managers such as [xStyle](https://github.com/FirefoxBar/xStyle).
